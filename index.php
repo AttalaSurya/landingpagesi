@@ -199,7 +199,6 @@
                   <a href="https://elektro.ft.uns.ac.id/" target='_blank'>Teknik Elektro</a> <br>
                   <a href="https://pwk.ft.uns.ac.id/" target='_blank'>Perencanaan Wilayah dan Kota</a> <br>
                 </div>
-                <div class="col-md-3">
                   <div class="col-md-4 mt-4 mb-4">
                     <h3 class="footer-heading text-light">Maps</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.120699070088!2d110.85154081477673!3d-7.5618169945466365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a16fdf072a90f%3A0xea50b255b0e6ce3e!2sFakultas%20Teknik%20Uns!5e0!3m2!1sen!2sid!4v1619534477026!5m2!1sen!2sid" style="max-width:300; max-height:200" allowfullscreen="" loading="lazy"></iframe>
