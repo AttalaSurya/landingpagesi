@@ -151,7 +151,7 @@
                                                         <h4>PWK</h4>
                                                     </div>
                                                 </div></a>
-                                            <img class="img-fluid" src="assets/img/sistemPortal/PWK.png" width="200" height="200" alt="Teknik Sipil"/>
+                                            <img class="img-fluid" src="assets/img/sistemPortal/PWK.png" width="200" height="200" alt="PWK"/>
                                         </div>
                                     </div>
                                 </div>
