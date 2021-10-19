@@ -107,50 +107,55 @@
                     </section>
                     <section class="page-section portfolio" id="sistemPortal">
                         <div class="container">
-                            <!-- Portfolio Section Heading-->
                             <div class="text-center">
                                 <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Sistem Portal</h2>
+                                <div class="divider-custom"></div>
                             </div>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom"></div>
-                            <!-- Portfolio Grid Items-->
                             <div class="container py-5">
                                 <div class="text-center">
                                     <div class="row justify-content-center">
-                                        <!-- Portfolio Items-->
-                                        <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="col-xl-4 col-lg-6 mb-4">
                                             <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                    <div class="portfolio-item-caption-content text-center text-white"><h4>Arsitektur</h4></div>
-                                                </div><img class="img-fluid" src="assets/img/Portfolio/Arsitek.png" width="200" height="200" alt="Arsitek"/>
-                                            </div>
+                                            <a href=<?php echo $obesipil ?>><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                    <div class="portfolio-item-caption-content text-center text-dark">
+                                                        <h4>Arsitek</h4>
+                                                    </div>
+                                                </div></a>
+                                            <img class="img-fluid" src="assets/img/sistemPortal/Arsitek.png" width="200" height="200" alt="Teknik Sipil">
                                         </div>
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                    <div class="portfolio-item-caption-content text-center text-white"><h4>Teknik Elektro</h4></div>
-                                                </div><img class="img-fluid" src="assets/img/Portfolio/T_Elektro.png" width="200" height="200" alt="Teknik Elektro"/>
-                                            </div>
+                                    </div>
+                                <div class="col-xl-4 col-lg-6 mb-4">
+                                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                                    <a href=<?php echo $obeelektro ?>><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                    <div class="portfolio-item-caption-content text-center text-dark">
+                                                        <h4>Teknik Elektro</h4>
+                                                    </div>
+                                                </div></a>
+                                    <img class="img-fluid" src="assets/img/sistemPortal/T_Elektro.png" width="150" height="150" alt="Teknik Sipil"/>
+                                </div>
+                                    </div>
+                                        <div class="col-xl-4 col-lg-6 mb-4">
+                                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                                            <a href=<?php echo $obemesin ?>><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                    <div class="portfolio-item-caption-content text-center text-dark">
+                                                        <h4>Teknik Mesin</h4>
+                                                    </div>
+                                                </div></a>
+                                            <img class="img-fluid" src="assets/img/sistemPortal/T_Mesin.png" width="200" height="200" alt="Teknik Sipil"/>
                                         </div>
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                    <div class="portfolio-item-caption-content text-center text-white"><h4>Teknik Mesin</h4></div>
-                                                </div><img class="img-fluid" src="assets/img/Portfolio/T_Mesin.png" width="200" height="200" alt="Teknik Mesin"/>
-                                            </div>
-                                        </div>
-                                    </div> 
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-6 col-lg-4 mb-5">
-                                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                                    <div class="portfolio-item-caption-content text-center text-white"><h4>PWK</h4></div>
-                                                </div><img class="img-fluid" src="assets/img/Portfolio/pwk.png" width="200" height="200" alt="PWK"/>
-                                            </div>
+                                    </div>
+                                        <div class="col-xl-4 col-lg-6 mb-4">
+                                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                                            <a href=<?php echo $obeindustri ?>><div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                    <div class="portfolio-item-caption-content text-center text-dark">
+                                                        <h4>PWK</h4>
+                                                    </div>
+                                                </div></a>
+                                            <img class="img-fluid" src="assets/img/sistemPortal/PWK.png" width="200" height="200" alt="Teknik Sipil"/>
                                         </div>
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
                         </div>
                     </section>
         <section class="page-section" id="BEMS">
@@ -205,7 +210,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- /.container-fluid -->
+            </div>
           </footer>
         
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
